@@ -1,0 +1,19 @@
+ .product{
+    padding-top: 6%;
+ }
+ /* .product{
+    padding-top: 10%;
+    display: flex;
+    padding: 10px;
+    background-color: bisque;
+    justify-content: space-between;
+} */
+
+.products h2{
+text-align: center;
+margin-bottom: 60px;
+font-size: 50px;
+width: 60%;
+/* background-color: bisque; */
+}
+ 
