@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -17,21 +17,35 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="products.html">Products</a></li>
+            <li><a href="#">Contact Us</a></li>
             <li>
-                <i style="background-color: beige;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUBJREFUSEvVlG1RQzEQRU8VAA4qgSoAHBQFgIOiAFAADhgc1AFFAUioA1oF7Vxmlwl5SfZNIT/Ir3aSt+fu3Y8Jnc+kc3zGAs6BO+DUBH0AD8AqEjgGcG/BS7EE0X31RAApfwW2wAJYAhvgGngCjoCLViYRQBacAZcWPFUqyDPwBkhI8UQAqZXK0rtj4NMyOukJkH2CHZRBd4u8yF5Y+e2/H035r4qstLu2qfuqTARKB03//2TQomFt3rfaVJ1xBcxNed4pqoVWhobvxWozgNUAskRDNB0pfw3clCwrAbxzFFtdI6+lVIrTo4xUE91r2nUGHZUD9NG7KQ8XWULzTlMms1RMDtBCU38390vFNh/KW1uEX89ygD9qDk8F4Nb+EJcDfLlpeeWeR/UuLr8csLMo0ZatwQbfHxooyub7/v8D9gzNRRmX6M9FAAAAAElFTkSuQmCC"/></i>
-                <a href="login.html">Login</a></li>
+                <i style="background-color: beige"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUBJREFUSEvVlG1RQzEQRU8VAA4qgSoAHBQFgIOiAFAADhgc1AFFAUioA1oF7Vxmlwl5SfZNIT/Ir3aSt+fu3Y8Jnc+kc3zGAs6BO+DUBH0AD8AqEjgGcG/BS7EE0X31RAApfwW2wAJYAhvgGngCjoCLViYRQBacAZcWPFUqyDPwBkhI8UQAqZXK0rtj4NMyOukJkH2CHZRBd4u8yF5Y+e2/H035r4qstLu2qfuqTARKB03//2TQomFt3rfaVJ1xBcxNed4pqoVWhobvxWozgNUAskRDNB0pfw3clCwrAbxzFFtdI6+lVIrTo4xUE91r2nUGHZUD9NG7KQ8XWULzTlMms1RMDtBCU38390vFNh/KW1uEX89ygD9qDk8F4Nb+EJcDfLlpeeWeR/UuLr8csLMo0ZatwQbfHxooyub7/v8D9gzNRRmX6M9FAAAAAElFTkSuQmCC"/></i>
+                <a href="login.html">Login/Sign up</a></li>
         </ul>
      </nav>
-     <section id="contactme">
-        <!-- <h1 id="heading">Have a project on your mind</h1> -->
-        <form action="" id="form">
-            <input type="text" name="name" id="input" placeholder="Enter your name">
-            <input type="text" name="email" id="input" placeholder="Enter your email">
-            <input type="password" name="password" id="input" placeholder="Enter your password">
-             <!-- <textarea name="message" id="message" cols="70" rows="20" -->
-             <!-- placeholder="Enter your message"></textarea> -->
-             <input type="submit" value="Login" id="submit">
-            </form>
-    </section>
+     <div class="all">
+     <div class="signup">
+        <h1 style="color: brown;">Sign Up</h1> <br>
+        <h4>It's free and only takes a minute</h4>
+        <form>
+            <label>First Name</label>
+            <input type="text" placeholder="">
+            <label>Last Name</label>
+            <input type="text" placeholder="">
+            <label>Email</label>
+            <input type="email" placeholder="">
+            <label>Password</label>
+            <input type="password" placeholder="">
+            <label>Confirm password</label>
+            <input type="password" placeholder="">
+            <input type="button" value="submit">
+        </form>
+        <p>By clicking the sign up button, you agree to our <br>
+         <a style="font-size: 25px;" href="#">Terms and conditions</a> and <a style="font-size: 25px;" href="#">Policy Privacy</a>
+        </p>
+        
+    </div>
+    <p class="para-2">Already have an account?  <a href="signup.html">Login here</a> </p>
+</div>
 </body>
 </html>
